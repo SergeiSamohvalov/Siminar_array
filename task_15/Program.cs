@@ -14,7 +14,7 @@ while (numberWeekday < 8)
     }
     else
     {
-        if (numberWeekday >= 6) ;
+        if (numberWeekday >= 6)
         {
             Console.Write("- это выходной день недели.");
             break;

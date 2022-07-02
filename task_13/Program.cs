@@ -39,14 +39,11 @@ FillArray(array);
 Printarray(array);
 
 int length = array.Length;
-int position = 0;
-while (position < length);
+if (length > 2)
 {
-    if (length >= 2);
-    Console.WriteLine(array[2].ToString());
-    position++;
+    Console.WriteLine("\n" + array[2].ToString());
 }
-        if (length < 2);
-        {
-           Console.WriteLine("- третьей цифры нет"); 
-        }
+else
+{
+    Console.WriteLine(" - третьей цифры нет");
+}
